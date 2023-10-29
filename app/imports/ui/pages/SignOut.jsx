@@ -2,7 +2,7 @@ import React from 'react';
 import { Meteor } from 'meteor/meteor';
 import { Col } from 'react-bootstrap';
 
-/* After the user clicks the "SignOut" link in the NavBar, log them out and display this page. */
+/* After the user clicks the "SignOut" link in the Digits, log them out and display this page. */
 const SignOut = () => {
   Meteor.logout();
   return (

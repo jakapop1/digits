@@ -13,7 +13,7 @@ import EditStuff from '../pages/EditStuff';
 import NotFound from '../pages/NotFound';
 import SignUp from '../pages/SignUp';
 import SignOut from '../pages/SignOut';
-import NavBar from '../components/NavBar';
+import Digits from '../components/digits';
 import SignIn from '../pages/SignIn';
 import NotAuthorized from '../pages/NotAuthorized';
 import LoadingSpinner from '../components/LoadingSpinner';
@@ -29,7 +29,7 @@ const App = () => {
   return (
     <Router>
       <div className="d-flex flex-column min-vh-100">
-        <NavBar />
+        <Digits />
         <Routes>
           <Route exact path="/" element={<Landing />} />
           <Route path="/signin" element={<SignIn />} />
