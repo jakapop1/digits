@@ -17,9 +17,9 @@ const ListContacts = () => {
     // Determine if the subscription is ready
     const rdy = subscription.ready();
     // Get the Contact documents
-    const contactItems = Stuffs.collection.find({}).fetch();
+    const contactItems = Contacts.collection.find({}).fetch();
     return {
-      stuffs: stuffItems,
+      stuffs: contactItems,
       ready: rdy,
     };
   }, []);
@@ -34,7 +34,7 @@ const ListContacts = () => {
 
           <Row xs={1} md={2} lg={3} className="g-4">
             {contacts.map((contact, index) => (
-              <Col key={index}>
+              <Col key={contact.Id}>
                 <Contact contact={contact} />
               </Col>
             ))}
