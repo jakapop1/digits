@@ -32,4 +32,4 @@ class ContactsCollection {
  * The singleton instance of the StuffsCollection.
  * @type {ContactsCollection}
  */
-export const Stuffs = new ContactsCollection();
+export const Contacts = new ContactsCollection();

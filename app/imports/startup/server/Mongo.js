@@ -1,5 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import { Stuffs } from '../../api/stuff/Stuff.js';
+import { Contacts } from '../../api/contact/Contacts';
 
 /* eslint-disable no-console */
 
@@ -23,8 +24,8 @@ const addContact = (contact) => {
 };
 
 if (Contacts.collection.find().count() === 0) {
-  if (Meteor.settings.defaultData) {
+  if (Meteor.settings.defaultContacts) {
     console.log('Creating default data.');
-    Meteor.settings.defaultData.forEach(data => addData(data));
+    Meteor.settings.defaultContacts.forEach(contact => addContact(contact));
   }
 }
