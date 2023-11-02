@@ -16,3 +16,15 @@ if (Stuffs.collection.find().count() === 0) {
     Meteor.settings.defaultData.forEach(data => addData(data));
   }
 }
+
+const addContact = (contact) => {
+  console.log(`  Adding: ${contact.lastName} (${contact.owner})`);
+  Contacts.collection.insert(contact);
+};
+
+if (Contacts.collection.find().count() === 0) {
+  if (Meteor.settings.defaultData) {
+    console.log('Creating default data.');
+    Meteor.settings.defaultData.forEach(data => addData(data));
+  }
+}
