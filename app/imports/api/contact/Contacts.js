@@ -12,8 +12,8 @@ class ContactsCollection {
     this.collection = new Mongo.Collection(this.name);
     // Define the structure of each document in the collection.
     this.schema = new SimpleSchema({
-      firstname: String,
-      lastname: String,
+      firstName: String,
+      lastName: String,
       address: String,
       image: String,
       description: String,

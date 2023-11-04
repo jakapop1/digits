@@ -26,7 +26,7 @@ ContactAdmin.propTypes = {
     image: PropTypes.string,
     description: PropTypes.string,
     owner: PropTypes.string,
-    // _id: PropTypes.string,
+    _id: PropTypes.string,
   }).isRequired,
 };
 
