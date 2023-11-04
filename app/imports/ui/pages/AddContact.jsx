@@ -50,17 +50,21 @@ const AddContact = () => {
               <Card.Body>
                 <Row>
                   <Col>
-                    <TextField name="First name" />
-                    <TextField name="Last name" />
+                    <TextField name="firstName" />
+                  </Col>
+                  <Col>
+                    <TextField name="lastName" />
                   </Col>
                 </Row>
                 <Row>
                   <Col>
-                    <TextField name="Address" />
-                    <TextField name="Image" />
+                    <TextField name="address" />
+                  </Col>
+                  <Col>
+                    <TextField name="image" />
                   </Col>
                 </Row>
-                <LongTextField name="Description" />
+                <LongTextField name="description" />
                 <SubmitField value="Submit" />
                 <ErrorsField />
               </Card.Body>
