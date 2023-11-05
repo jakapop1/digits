@@ -41,7 +41,7 @@ const AddNotes = ({ owner, contactId }) => {
     <Container className="py-3">
       <Row className="justify-content-center">
         <Col xs={10}>
-          <Col className="text-center"><h2>Add Note</h2></Col>
+          <Col className="text-center"><h2>Add Timestamped Note</h2></Col>
           <AutoForm ref={ref => { fRef = ref; }} schema={bridge} onSubmit={data => submit(data, fRef)}>
             <Card>
               <Card.Body>
@@ -60,7 +60,7 @@ const AddNotes = ({ owner, contactId }) => {
   );
 };
 
-AddNote.propTypes = {
+AddNotes.propTypes = {
   owner: PropTypes.string.isRequired,
   contactId: PropTypes.string.isRequired,
 };
