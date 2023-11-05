@@ -19,7 +19,8 @@ const ListContacts = () => {
     const rdy = subscription.ready() && subscription2.ready();
     // Get the Contact documents
     const contactItems = Contacts.collection.find({}).fetch();
-    const noteItems = Notes.find({}).fetch();
+    const noteItems = Notes.collection.find({}).fetch();
+
     return {
       contacts: contactItems,
       notes: noteItems,
