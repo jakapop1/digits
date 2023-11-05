@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Card, Image } from 'react-bootstrap';
 
-/** Renders a single row in the List Contacts (Admin) table. See pages/ListContactsAdmin.jsx. */
+/** Renders a single row in the List Notes (Admin) table. See pages/ListContactsAdmin.jsx. */
 const ContactAdmin = ({ contact }) => (
   <Card className="h-100">
     <Card.Header>
