@@ -35,7 +35,7 @@ Run ESLint for the code inside the imports/ folder with:
 **Landing Page:** Starts here for an intro to what Digits does.
 <img src="doc/Landing.PNG">
 
-**Register:** No account? Hit “Login” then “Sign Up” to create one.
+**Register:** No account? Hit “Login” then “Sign Up” to create one. 
 <img src="doc/Register.PNG">
 
 **Sign In:** To log in, click “Login” and then “Sign In.”
