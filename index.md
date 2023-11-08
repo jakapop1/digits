@@ -1,5 +1,5 @@
 # Digits-semantic-ui:
-<img src="doc/Landing.png">
+<img src="doc/Landing.PNG">
 It is a web app that lets you:
 Sign up for an account,
 build and look after your contact list, 
@@ -33,19 +33,19 @@ Run ESLint for the code inside the imports/ folder with:
 **Navigating the User Interface:**
 
 **Landing Page:** Starts here for an intro to what Digits does.
-<img src="doc/landing.png">
+<img src="doc/landing.PNG">
 
 **Register:** No account? Hit “Login” then “Sign Up” to create one.
-<img src="doc/Register.png">
+<img src="doc/Register.PNG">
 
 **Sign In:** To log in, click “Login” and then “Sign In.”
-<img src="doc/SignIn.png">
+<img src="doc/SignIn.PNG">
 
 **User Home:** Once in, this page is your main hub. Add and see contacts here.
-<img src="doc/UserHome.png">
+<img src="doc/UserHome.PNG">
 
 **List Contacts:** This shows all your contacts and lets you note details on your meet-ups.
-<img src="doc/ListContacts.png">
+<img src="doc/ListContacts.PNG">
 
 **Edit Contacts:** Want to change contact details? Click “Edit” on any contact.
-<img src="doc/Edit.png">
+<img src="doc/Edit.PNG">
