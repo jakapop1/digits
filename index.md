@@ -1,5 +1,5 @@
 # Digits-semantic-ui:
-<img src="doc/Landing.png">
+<img src="doc/Landing.PNG">
 It is a web app that lets you:
 Sign up for an account,
 build and look after your contact list, 
