@@ -1,4 +1,4 @@
-# Digits-semantic-ui:
+# Digits:
 <img src="doc/Landing.PNG">
 It is a web app that lets you:
 Sign up for an account,
